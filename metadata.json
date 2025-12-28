@@ -1,0 +1,8 @@
+{
+  "name": "YouTube Blogify AI",
+  "description": "Transform YouTube videos into SEO-optimized blog posts that match your brand's voice and tone. Extract thumbnails and key frames automatically.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
