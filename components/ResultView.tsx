@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { BlogDraft } from '../types';
 
 interface ResultViewProps {
@@ -8,6 +8,7 @@ interface ResultViewProps {
 }
 
 const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
+  const [copied, setCopied] = useState(false);
   
   const extractVideoId = (thumbnailUrl: string) => {
     const parts = thumbnailUrl.split('/');
@@ -29,6 +30,14 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
     if (parts.length === 2) return parts[0] * 60 + parts[1];
     if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
     return 0;
+  };
+
+  const handleCopyMarkdown = () => {
+    const markdown = `# ${draft.title}\n\n${draft.content}`;
+    navigator.clipboard.writeText(markdown).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
   };
 
   const renderContent = (content: string) => {
@@ -99,8 +108,8 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white p-10 rounded-[3rem] shadow-xl border border-slate-100">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-3">
-            <span className="px-4 py-1.5 bg-indigo-600 text-white text-[11px] font-black rounded-full uppercase tracking-widest shadow-lg shadow-indigo-100">Draft v2.0</span>
-            <span className="text-slate-400 text-sm font-bold">Brand Cloned • Frame Mapped</span>
+            <span className="px-4 py-1.5 bg-indigo-600 text-white text-[11px] font-black rounded-full uppercase tracking-widest shadow-lg shadow-indigo-100">Draft v2.1</span>
+            <span className="text-slate-400 text-sm font-bold">Brand Cloned • Links & Sponsors Added</span>
           </div>
           <h2 className="text-4xl font-black text-slate-900 tracking-tighter">Review Your Content</h2>
         </div>
@@ -112,9 +121,21 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
             Restart
           </button>
-          <button className="flex-1 md:flex-none px-10 py-5 bg-indigo-600 text-white rounded-3xl font-black hover:bg-indigo-700 transition-all shadow-2xl shadow-indigo-200 flex items-center justify-center gap-3">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-            Export to CMS
+          <button 
+            onClick={handleCopyMarkdown}
+            className={`flex-1 md:flex-none px-10 py-5 rounded-3xl font-black transition-all shadow-2xl flex items-center justify-center gap-3 ${copied ? 'bg-green-600 text-white shadow-green-100' : 'bg-indigo-600 text-white shadow-indigo-200 hover:bg-indigo-700'}`}
+          >
+            {copied ? (
+              <>
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                Copied!
+              </>
+            ) : (
+              <>
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" /></svg>
+                Copy Markdown
+              </>
+            )}
           </button>
         </div>
       </div>
@@ -190,8 +211,11 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
               <button className="w-full py-6 bg-indigo-600 hover:bg-indigo-500 rounded-[2rem] font-black text-xl transition-all shadow-2xl shadow-indigo-600/20 active:scale-[0.98]">
                 Publish Draft
               </button>
-              <button className="w-full py-6 bg-slate-900 hover:bg-slate-800 rounded-[2rem] font-black text-xl transition-all">
-                Copy Markdown
+              <button 
+                onClick={handleCopyMarkdown}
+                className="w-full py-6 bg-slate-900 hover:bg-slate-800 rounded-[2rem] font-black text-xl transition-all"
+              >
+                {copied ? 'Copied Content!' : 'Copy Markdown'}
               </button>
             </div>
           </div>

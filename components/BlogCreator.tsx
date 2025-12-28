@@ -76,11 +76,16 @@ const BlogCreator: React.FC<BlogCreatorProps> = ({ answers, onDraftCreated }) =>
         - Insert image markers in the format [FRAME_X] (e.g., [FRAME_0], [FRAME_1], [FRAME_2]) at the exact points in the content where a visual from the video should be inserted to support the text.
         
         MANDATORY END SECTIONS:
-        1. "Thanks to Our Sponsors": Identify any sponsors mentioned in the transcript. List them with their names and any URLs provided in the talk. If no sponsors exist, omit this section.
-        2. "Episode Links": Create this section at the very end. Include clickable links for:
-           - YouTube: https://youtube.com/watch?v=${ytInfo.videoId}
-           - Spotify: (Look for a link in the transcript; if not found, use a placeholder "Coming soon")
-           - Apple Podcasts: (Look for a link in the transcript; if not found, use a placeholder "Coming soon")
+        You MUST end the blog post with these two specific headings:
+        
+        ## Thanks to Our Sponsors
+        Identify any sponsors mentioned in the transcript. List them as bold names with their associated URLs if mentioned. If no sponsors are found, write "No sponsors mentioned in this episode."
+        
+        ## Episode Links
+        Include clickable links for:
+        - YouTube: https://youtube.com/watch?v=${ytInfo.videoId}
+        - Spotify: [Search the transcript for a Spotify link, if none found, write 'Available on Spotify']
+        - Apple Podcasts: [Search the transcript for an Apple Podcasts link, if none found, write 'Available on Apple Podcasts']
         
         IMAGE MAPPING:
         - Identify 3 high-value visual moments from the video transcript.
