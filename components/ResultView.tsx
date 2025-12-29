@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BlogDraft } from '../types';
+import { BlogDraft, SavedPost } from '../types';
 
 interface ResultViewProps {
   draft: BlogDraft;
@@ -9,6 +9,7 @@ interface ResultViewProps {
 
 const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
   const [copied, setCopied] = useState(false);
+  const [saved, setSaved] = useState(false);
   
   const extractVideoId = (thumbnailUrl: string) => {
     const parts = thumbnailUrl.split('/');
@@ -33,6 +34,27 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
     });
   };
 
+  const handleSaveToDocs = () => {
+    const newPost: SavedPost = {
+      id: Date.now().toString(),
+      title: draft.title,
+      markdown: fullMarkdown,
+      savedAt: new Date().toISOString(),
+      videoId: videoId,
+      thumbnailUrl: draft.thumbnailUrl
+    };
+
+    const existingDocsStr = localStorage.getItem('saved_docs') || '[]';
+    const existingDocs: SavedPost[] = JSON.parse(existingDocsStr);
+    
+    // Avoid duplicates by title (optional check)
+    const updatedDocs = [newPost, ...existingDocs.filter(d => d.title !== newPost.title)];
+    localStorage.setItem('saved_docs', JSON.stringify(updatedDocs));
+
+    setSaved(true);
+    setTimeout(() => setSaved(false), 3000);
+  };
+
   return (
     <div className="max-w-7xl mx-auto space-y-12 animate-in fade-in duration-1000 pb-20">
       {/* Header Actions */}
@@ -40,13 +62,23 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-3">
             <span className="px-4 py-1.5 bg-indigo-600 text-white text-[11px] font-black rounded-full uppercase tracking-widest">Editor Mode</span>
-            <span className="text-slate-400 text-sm font-bold">Raw Markdown Output</span>
+            <span className="text-slate-400 text-sm font-bold">docs/unsaved_draft.md</span>
           </div>
           <h2 className="text-4xl font-black text-slate-900 tracking-tighter">Copy Your Content</h2>
         </div>
         <div className="flex items-center gap-4 w-full md:w-auto">
-          <button onClick={onReset} className="flex-1 md:flex-none px-8 py-5 bg-slate-50 border-2 border-slate-200 text-slate-700 rounded-3xl font-black hover:bg-slate-100 transition-all flex items-center justify-center gap-3">
-            Restart
+          <button 
+            onClick={handleSaveToDocs}
+            className={`flex-1 md:flex-none px-8 py-5 rounded-3xl font-black transition-all flex items-center justify-center gap-3 shadow-xl ${
+              saved 
+              ? 'bg-green-100 text-green-700 border-2 border-green-200' 
+              : 'bg-white border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-50'
+            }`}
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+            </svg>
+            {saved ? 'Saved to docs/' : 'Save to docs/'}
           </button>
           <button 
             onClick={handleCopyMarkdown}

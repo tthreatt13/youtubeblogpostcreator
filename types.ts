@@ -3,7 +3,8 @@ export enum AppStep {
   DISCOVERY = 'DISCOVERY',
   INPUT = 'INPUT',
   PROCESSING = 'PROCESSING',
-  RESULT = 'RESULT'
+  RESULT = 'RESULT',
+  DOCS = 'DOCS'
 }
 
 export interface DiscoveryAnswers {
@@ -11,6 +12,15 @@ export interface DiscoveryAnswers {
   imageSelectionStrategy: string;
   seoFocus: string;
   workflowIntegration: string;
+}
+
+export interface SavedPost {
+  id: string;
+  title: string;
+  markdown: string;
+  savedAt: string;
+  videoId: string;
+  thumbnailUrl: string;
 }
 
 export interface BlogDraft {
