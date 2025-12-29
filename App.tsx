@@ -72,7 +72,7 @@ const App: React.FC = () => {
 
       <footer className="bg-white border-t border-slate-200 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-sm text-slate-500">© 2024 YouTube Blogify AI. Built for high-growth SaaS content managers.</p>
+          <p className="text-sm text-slate-500">© YouTube Blogify AI. Built for high-growth SaaS content managers.</p>
         </div>
       </footer>
     </div>
