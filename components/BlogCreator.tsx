@@ -73,6 +73,7 @@ const BlogCreator: React.FC<BlogCreatorProps> = ({ answers, onDraftCreated }) =>
         ${references.filter(r => r).join('\n')}
         
         FORMATTING & STRUCTURE:
+        - The title of the blog post should always be How I AI: (youtube title) with (the person who was interviewed)
         - Use Markdown.
         - DO NOT include a TL;DR or "Executive Summary" section.
         - MANDATORY: Use frequent line breaks. Paragraphs should be 2-3 sentences max.
@@ -101,7 +102,7 @@ const BlogCreator: React.FC<BlogCreatorProps> = ({ answers, onDraftCreated }) =>
         
         Structure the output as JSON:
         {
-          "title": "Brand-Aligned SEO Title",
+          "title": "How I AI: [YouTube Title] with [Interviewee]",
           "content": "Full markdown content with [FRAME_X] markers and the mandatory end sections formatted as requested",
           "seoMetadata": {
             "title": "Meta Title",
