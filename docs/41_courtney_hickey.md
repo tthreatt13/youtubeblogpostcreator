@@ -3,6 +3,7 @@ Meta Title: How Zapier's EA Automates Operations with AI Agents
 Meta Description: Zapier's Courtney Hickey shares how she uses AI agents, custom GPTs, and NotebookLM to automate meeting prep, feedback, and executive operations.
 Keywords: AI for Executive Assistants, Zapier Agents, Meeting Automation, NotebookLM Use Cases, Enterprise AI Operations
 ---
+Dec 15, 2025
 
 # How I AI: How Zapier's EA Automates Executive Ops with Courtney Hickey
 

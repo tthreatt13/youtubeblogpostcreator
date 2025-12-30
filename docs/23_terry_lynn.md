@@ -3,6 +3,7 @@ Meta Title: How to Build an Apple Watch App with AI: Cursor & Xcode Workflow
 Meta Description: Product Manager Terry Lynn breaks down his 'dual-wielding' workflow for building iOS apps using Cursor, Xcode, and AI-driven PRDs.
 Keywords: AI mobile development, Cursor for iOS, Xcode AI workflow, vibe coding, building apps with LLMs, SwiftUI AI generation
 ---
+Sep 15, 2025
 
 # How I AI: How I Built an Apple Watch Workout App Using Cursor with Terry Lynn
 

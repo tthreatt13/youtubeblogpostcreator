@@ -3,6 +3,7 @@ Meta Title: How a Yelp PM Prototypes AI Products with Claude & Magic Patterns
 Meta Description: Yelp PM Priya Badger shares her 'Golden Conversation' framework for AI product management, using Claude Artifacts and Magic Patterns to prototype faster.
 Keywords: AI Product Management, Claude Artifacts, Magic Patterns, Prototyping AI, Golden Conversations, Yelp Assistant
 ---
+Oct 20, 2025
 
 # How I AI: How this Yelp AI PM works backward from "Golden Conversations" with Priya Badger
 

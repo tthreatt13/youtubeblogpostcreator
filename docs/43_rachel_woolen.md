@@ -3,6 +3,7 @@ Meta Title: How Webflow's CPO Built an AI Chief of Staff | How I AI
 Meta Description: Webflow CPO Rachel Woolen shares her custom AI Chief of Staff that manages her calendar and the 'Builder Days' she uses to drive AI adoption.
 Keywords: AI Chief of Staff, Vibe Coding, Rachel Woolen, Webflow, AI for Executives, Cursor AI, Builder Days
 ---
+Dec 29, 2025
 
 # How I AI: How Webflow's CPO Built an AI Chief of Staff to Manage Her Time with Rachel Woolen
 

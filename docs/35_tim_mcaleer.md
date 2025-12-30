@@ -3,6 +3,7 @@ Meta Title: Automating Documentary Post-Production with AI: Tim McAleer
 Meta Description: Ken Burns producer Tim McAleer reveals how he uses Python, OpenAI, and custom AI apps to automate metadata, video logging, and archival research.
 Keywords: AI in filmmaking, post-production automation, OpenAI Vision API, documentary research AI, vibe coding, digital asset management
 ---
+Nov 17, 2025
 
 # How I AI: Nobody Wanted to Do This Work: Automating Post-Production with Tim McAleer
 

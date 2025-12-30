@@ -3,6 +3,7 @@ Meta Title: ChatGPT Agent Mode & Custom Personas | How I AI with Michal Peled
 Meta Description: HoneyBook's Michal Peled shows how to use ChatGPT Agent Mode for recruiting, create Custom GPT personas with NotebookLM, and automate daily tasks.
 Keywords: ChatGPT Agent Mode, AI recruiting automation, Custom GPT personas, NotebookLM, HoneyBook, internal tools
 ---
+Dec 8, 2025
 
 # How I AI: ChatGPT Agent Mode: The 'Little Helper' That Transformed Our Work with Michal Peled
 

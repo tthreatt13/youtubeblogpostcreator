@@ -3,6 +3,7 @@ Meta Title: How to Get Product Teams to Adopt AI (The Pendo Playbook)
 Meta Description: Pendo's Brian Greenbaum shares his step-by-step strategy for driving AI adoption across product and design teams, from 'vibe coding' sessions to defining AI usage policies.
 Keywords: AI adoption strategy, Pendo product design, AI for product managers, Model Context Protocol MCP, Cursor for designers, AI usage policy template
 ---
+Dec 22, 2025
 
 # How I AI: Getting Product and Design Teams to Adopt AI with Brian Greenbaum
 

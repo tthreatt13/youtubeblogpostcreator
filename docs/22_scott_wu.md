@@ -3,6 +3,7 @@ Meta Title: How I AI: Scaling Engineering with Devin and Scott Wu
 Meta Description: Cognition Labs CEO Scott Wu joins Claire Vo to demonstrate how to treat Devin like a junior engineer, automate workflows with DeepWiki, and multi-thread development tasks.
 Keywords: Devin AI, Cognition Labs, AI Software Engineer, Scott Wu, DeepWiki, AI Workflow, ChatPRD
 ---
+Sep 8, 2025
 
 # How I AI: How Devin Replaces Your Junior Engineers with Infinite Interns with Scott Wu
 

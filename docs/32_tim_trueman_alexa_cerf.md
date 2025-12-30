@@ -3,6 +3,7 @@ Meta Title: How Faire Uses AI for Data Analysis & SQL Generation
 Meta Description: Learn how Faire's data team uses Cursor, MCPs, and ChatGPT to automate SQL queries, analyze experiments, and perform deep forensic research on codebases.
 Keywords: AI data analysis, Cursor MCP, SQL generation, automated reporting, Faire data team, vibe analysis, product analytics
 ---
+Nov 3, 2025
 
 # How I AI: Vibe Analysis: How Faire's Data Team Uses AI to Investigate Product Issues with Tim Trueman and Alexa Cerf
 

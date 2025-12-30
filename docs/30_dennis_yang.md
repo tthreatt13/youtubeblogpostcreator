@@ -3,6 +3,7 @@ Meta Title: How to Use Cursor for Product Management Workflows
 Meta Description: Learn how to use Cursor, MCPs, and Markdown to automate PRDs, Jira tickets, and status reports without writing code.
 Keywords: Cursor for Product Managers, AI Product Management, MCPs, Automated Jira Workflows, Markdown PRD, Cursor Rules
 ---
+Oct 27, 2025
 
 # How I AI: Using Cursor for Product Management with Dennis Yang
 

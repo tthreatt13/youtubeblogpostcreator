@@ -3,6 +3,7 @@ Meta Title: How Matt Britton Automated Sales Ops with Zapier & AI
 Meta Description: Learn how Suzy CEO Matt Britton built a mega-workflow to transform 25,000 hours of Gong calls into sales coaching, churn alerts, and SEO content.
 Keywords: Zapier automation, Gong transcript analysis, AI sales coaching, SEO automation, GPT-4 workflow, Browse AI tutorial
 ---
+Nov 10, 2025
 
 # How I AI: How this CEO turned 25,000 hours of sales calls into a growth engine with Matt Britton
 

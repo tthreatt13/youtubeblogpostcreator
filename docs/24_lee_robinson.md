@@ -3,6 +3,7 @@ Meta Title: How to Code with Cursor: A Beginner's Guide with Lee Robinson
 Meta Description: Learn how to use Cursor AI to build software, fix lint errors, and improve your writing. Lee Robinson joins Claire Vo to demystify AI coding for beginners and pros.
 Keywords: Cursor AI, Lee Robinson, AI code editor, coding for beginners, cursor rules, vibe coding, AI agent tutorial
 ---
+Sep 22, 2025
 
 # How I AI: The Beginner's Guide to Coding with Cursor with Lee Robinson
 

@@ -3,6 +3,7 @@ Meta Title: Build a Personal AI Health Coach: Guide with Lucas Worthing
 Meta Description: Lucas Worthing shows how to use ChatGPT to aggregate MRIs, bloodwork, and wearables into a personal high-performance health coach.
 Keywords: AI health coach, ChatGPT for fitness, medical data analysis, GPT prompt engineering, Lucas Worthing, Cactus technology
 ---
+Nov 24, 2025
 
 # How I AI: How to Create Your Own AI Performance Coach with Lucas Worthing
 
