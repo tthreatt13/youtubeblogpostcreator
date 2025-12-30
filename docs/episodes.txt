@@ -37,9 +37,9 @@
 07_Luke Harries
 06_Ryan Carson
 05_Hilary Gridley
-04_Joel Unger
-03_Cody De Arkland
+04_Joel Unger | done
+03_Cody De Arkland | done
 02_Farhad Manjoo | done
 01_Sahil Lavingia | done
 
-14 (3-16)
+12 (5-16)

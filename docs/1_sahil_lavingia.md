@@ -3,6 +3,7 @@ Meta Title: Sahil Lavingia's AI Stack: v0, Devin, and Cursor Workflow
 Meta Description: Gumroad CEO Sahil Lavingia joins How I AI to demonstrate how he uses v0, Devin, and Cursor to achieve a 40x increase in engineering speed.
 Keywords: Sahil Lavingia, Gumroad, Devin AI, v0 tutorial, Cursor editor, AI engineering workflow, AI product management
 ---
+Apr 22, 2025
 
 # How I AI: Gumroad CEO's Playbook to 40x His Team's Productivity with Sahil Lavingia
 

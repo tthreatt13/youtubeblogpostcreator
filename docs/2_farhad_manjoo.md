@@ -3,6 +3,7 @@ Meta Title: How Farhad Manjoo Uses AI to Write Better - How I AI
 Meta Description: Former NYT columnist Farhad Manjoo shares his AI writing workflow, from brainstorming research to finding the perfect idiom using ChatGPT.
 Keywords: AI writing tips, Farhad Manjoo, ChatGPT for writers, copywriting with AI, AI research workflow, creative writing AI
 ---
+Apr 28, 2025
 
 # How I AI: How to make your writing better using AI with Farhad Manjoo
 
