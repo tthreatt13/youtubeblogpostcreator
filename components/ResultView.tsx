@@ -10,6 +10,7 @@ interface ResultViewProps {
 const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
   const [copied, setCopied] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [downloading, setDownloading] = useState(false);
   
   const extractVideoId = (thumbnailUrl: string) => {
     const parts = thumbnailUrl.split('/');
@@ -17,7 +18,17 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
   };
 
   const videoId = extractVideoId(draft.thumbnailUrl);
-  const fullMarkdown = `# ${draft.title}\n\n${draft.content}`;
+  
+  // Enriched markdown with SEO Front Matter for CMS export
+  const fullMarkdown = `---
+Meta Title: ${draft.seoMetadata.title}
+Meta Description: ${draft.seoMetadata.description}
+Keywords: ${draft.seoMetadata.keywords.join(', ')}
+---
+
+# ${draft.title}
+
+${draft.content}`;
 
   const parseTimestampToSeconds = (ts: string) => {
     if (!ts) return 0;
@@ -47,7 +58,7 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
     const existingDocsStr = localStorage.getItem('saved_docs') || '[]';
     const existingDocs: SavedPost[] = JSON.parse(existingDocsStr);
     
-    // Avoid duplicates by title (optional check)
+    // Avoid duplicates by title
     const updatedDocs = [newPost, ...existingDocs.filter(d => d.title !== newPost.title)];
     localStorage.setItem('saved_docs', JSON.stringify(updatedDocs));
 
@@ -55,10 +66,31 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
     setTimeout(() => setSaved(false), 3000);
   };
 
+  const handleDownloadThumbnail = async () => {
+    setDownloading(true);
+    try {
+      const response = await fetch(draft.thumbnailUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `thumbnail-${videoId}.jpg`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Failed to download thumbnail:', error);
+      alert('Could not download thumbnail directly due to browser security. Right-click the thumbnail in the sidebar to save it.');
+    } finally {
+      setDownloading(false);
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto space-y-12 animate-in fade-in duration-1000 pb-20">
       {/* Header Actions */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white p-10 rounded-[3rem] shadow-xl border border-slate-100">
+      <div className="flex flex-col xl:flex-row items-center justify-between gap-8 bg-white p-10 rounded-[3rem] shadow-xl border border-slate-100">
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-3">
             <span className="px-4 py-1.5 bg-indigo-600 text-white text-[11px] font-black rounded-full uppercase tracking-widest">Editor Mode</span>
@@ -66,7 +98,17 @@ const ResultView: React.FC<ResultViewProps> = ({ draft, onReset }) => {
           </div>
           <h2 className="text-4xl font-black text-slate-900 tracking-tighter">Copy Your Content</h2>
         </div>
-        <div className="flex items-center gap-4 w-full md:w-auto">
+        <div className="flex flex-wrap items-center gap-4 w-full xl:w-auto">
+          <button 
+            onClick={handleDownloadThumbnail}
+            disabled={downloading}
+            className="flex-1 md:flex-none px-6 py-5 bg-slate-50 border-2 border-slate-200 text-slate-700 rounded-3xl font-black hover:bg-slate-100 transition-all flex items-center justify-center gap-3"
+          >
+            <svg className={`w-5 h-5 ${downloading ? 'animate-bounce' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            {downloading ? 'Downloading...' : 'Thumbnail'}
+          </button>
           <button 
             onClick={handleSaveToDocs}
             className={`flex-1 md:flex-none px-8 py-5 rounded-3xl font-black transition-all flex items-center justify-center gap-3 shadow-xl ${

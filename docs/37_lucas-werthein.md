@@ -1,12 +1,12 @@
 ---
-Meta Title: Build a Personal AI Health Coach: Guide with Lucas Werthein
-Meta Description: Lucas Werthein shows how to use ChatGPT to aggregate MRIs, bloodwork, and wearables into a personal high-performance health coach.
-Keywords: AI health coach, ChatGPT for fitness, medical data analysis, GPT prompt engineering, Lucas Werthein, Cactus technology
+Meta Title: Build a Personal AI Health Coach: Guide with Lucas Worthing
+Meta Description: Lucas Worthing shows how to use ChatGPT to aggregate MRIs, bloodwork, and wearables into a personal high-performance health coach.
+Keywords: AI health coach, ChatGPT for fitness, medical data analysis, GPT prompt engineering, Lucas Worthing, Cactus technology
 ---
 
-# How I AI: How to Create Your Own AI Performance Coach with Lucas Werthein
+# How I AI: How to Create Your Own AI Performance Coach with Lucas Worthing
 
-Lucas Werthein is the Head of Technology at Cactus, where he has built products for brands like Apple, Coca-Cola, and Beyoncé.
+Lucas Worthing is the Head of Technology at Cactus, where he has built products for brands like Apple, Coca-Cola, and Beyoncé.
 
 But today, we aren’t talking about enterprise product development.
 
