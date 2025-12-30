@@ -39,7 +39,7 @@
 05_Hilary Gridley
 04_Joel Unger
 03_Cody De Arkland
-02_Farhad Manjoo
-01_Sahil Lavingia
+02_Farhad Manjoo | done
+01_Sahil Lavingia | done
 
-16 (1-16)
+14 (3-16)
