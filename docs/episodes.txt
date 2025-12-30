@@ -2,18 +2,18 @@
 42_Brian Greenbaum | done
 41_ Cortney Hickey | done
 40_Michal Peled | done
-39_Gemini 3 vs Claude Opus 4.5 vs GPT-5.1
+39_Gemini 3 vs Claude Opus 4.5 vs GPT-5.1 <<
 38_Marily Nika | on blog
 37_Lucas Werthein | done
-36_Farm to Table
-35_Tim McAleer
-34_Matt Britton
-33_AI Coding for Beginners
-32_Tim Trueman and Alexa Cerf
-31_Marco Casalaina
-30_Dennis Yang
-29_Claude Skills
-28_Priya Badger
+36_Farm to Table <<
+35_Tim McAleer | done
+34_Matt Britton | done
+33_AI Coding for Beginners <<
+32_Tim Trueman and Alexa Cerf | done
+31_Marco Casalaina <<
+30_Dennis Yang | done
+29_Claude Skills <<
+28_Priya Badger | done
 27_Hamel Husain | on blog
 26_Amir Klein | on blog
 25_Ravi Mehta | on blog
@@ -24,7 +24,7 @@
 20_Tomasz Tunguz | on blog
 19_Anish Acharya | on blog
 18_Wade Chambers | on blog
-17_Inside GPT-5
+17_Inside GPT-5 <<
 16_Andrew Mason and Nabeel Hyatt
 15_Jackie Brosamer and Brad Axen
 14_Zach Davis
@@ -41,3 +41,6 @@
 03_Cody De Arkland
 02_Farhad Manjoo
 01_Sahil Lavingia
+
+3 (22-24)
+16 (1-16)
