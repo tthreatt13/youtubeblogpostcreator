@@ -17,9 +17,9 @@
 27_Hamel Husain | on blog
 26_Amir Klein | on blog
 25_Ravi Mehta | on blog
-24_Lee Robinson
-23_Terry Lin
-22_Scott Wu
+24_Lee Robinson | done
+23_Terry Lin | done
+22_Scott Wu | done
 21_Anjan Panneer | on blog
 20_Tomasz Tunguz | on blog
 19_Anish Acharya | on blog
