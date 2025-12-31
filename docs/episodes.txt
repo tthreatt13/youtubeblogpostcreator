@@ -5,14 +5,14 @@
 39_Gemini 3 vs Claude Opus 4.5 vs GPT-5.1 <<
 38_Marily Nika | on blog
 37_Lucas Werthein | done
-36_Farm to Table <<
+36_Farm to Table << | done
 35_Tim McAleer | done
 34_Matt Britton | done
-33_AI Coding for Beginners <<
+33_AI Coding for Beginners << | done
 32_Tim Trueman and Alexa Cerf | done
 31_Marco Casalaina <<
 30_Dennis Yang | done
-29_Claude Skills <<
+29_Claude Skills << | done
 28_Priya Badger | done
 27_Hamel Husain | on blog
 26_Amir Klein | on blog
