@@ -3,6 +3,7 @@ Meta Title: Automate Marketing & Save $140k with AI Workflows (Luke Harries)
 Meta Description: 11Labs Head of Growth Luke Harries shares his AI playbooks: automated case studies with Granola, a custom translation engine built in Cursor, and a WhatsApp MCP.
 Keywords: AI marketing automation, Model Context Protocol, Granola AI, 11Labs case study, Cursor for marketers, Custom GPTs for business
 ---
+June 2, 2025
 
 # How I AI: The Exact AI Playbook: Using MCPs, Custom GPTs, & Granola with Luke Harries
 

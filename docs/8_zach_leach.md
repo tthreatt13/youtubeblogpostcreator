@@ -3,6 +3,7 @@ Meta Title: How Gamma Uses AI for Design, Research & Hiring
 Meta Description: Gamma's Head of Design Zach Leach shares his workflows for analyzing 500+ feedback items with ChatGPT Deep Research and scaling art direction with Midjourney.
 Keywords: ChatGPT Deep Research, Midjourney Style Reference, AI user research, Gamma design workflow, AI for product design, Replicate background remover
 ---
+June 9, 2025
 
 # How I AI: Gamma’s Head of Design shares how his small team uses AI for user research, art direction, and hiring with Zach Leach
 

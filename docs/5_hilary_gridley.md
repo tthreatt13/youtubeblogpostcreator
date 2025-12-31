@@ -3,6 +3,7 @@ Meta Title: How to Build Custom GPTs for Management - How I AI with Hilary Gridl
 Meta Description: Whoop's Hilary Gridley shares her framework for using Custom GPTs to scale management, automate feedback loops, and articulate taste to her product team.
 Keywords: Custom GPTs for managers, AI for product management, Hilary Gridley, Whoop, scaling leadership with AI, AI prompt engineering for teams
 ---
+May 19, 2025
 
 # How I AI: How Custom GPTs Can Make You a Better Manager with Hilary Gridley
 

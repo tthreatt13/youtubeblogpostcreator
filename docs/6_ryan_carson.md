@@ -3,6 +3,7 @@ Meta Title: A 3-Step AI Coding Workflow for Solo Founders | How I AI
 Meta Description: Stop vibe coding and start shipping. Ryan Carson shares his structured Cursor workflow using PRDs, Task Lists, and MCPs to build scalable products.
 Keywords: Cursor AI workflow, AI for product managers, ChatPRD, Model Context Protocol, vibe coding, solo founder stack, AI coding tips
 ---
+May 26, 2025
 
 # How I AI: A 3-step AI coding workflow for solo founders with Ryan Carson
 

@@ -30,9 +30,9 @@
 14_Zach Davis
 13_Perna Kaul
 12_Hiten Shah
-11_Colin Matthews
-10_John Blackman
-09_Elizabeth Lin
+11_Colin Matthews | done
+10_John Blackman | done
+09_Elizabeth Lin | done
 08_Zach Leach | done
 07_Luke Harries | done
 06_Ryan Carson | done
@@ -42,4 +42,4 @@
 02_Farhad Manjoo | done
 01_Sahil Lavingia | done
 
-8 (9-16)
+8 (11-16)
