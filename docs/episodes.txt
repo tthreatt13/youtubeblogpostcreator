@@ -33,13 +33,13 @@
 11_Colin Matthews
 10_John Blackman
 09_Elizabeth Lin
-08_Zach Leach
-07_Luke Harries
-06_Ryan Carson
-05_Hilary Gridley
+08_Zach Leach | done
+07_Luke Harries | done
+06_Ryan Carson | done
+05_Hilary Gridley | done
 04_Joel Unger | done
 03_Cody De Arkland | done
 02_Farhad Manjoo | done
 01_Sahil Lavingia | done
 
-12 (5-16)
+8 (9-16)
