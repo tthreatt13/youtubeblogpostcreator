@@ -25,11 +25,11 @@
 19_Anish Acharya | on blog
 18_Wade Chambers | on blog
 17_Inside GPT-5 <<
-16_Andrew Mason and Nabeel Hyatt
-15_Jackie Brosamer and Brad Axen
-14_Zach Davis
-13_Perna Kaul
-12_Hiten Shah
+16_Andrew Mason and Nabeel Hyatt | done
+15_Jackie Brosamer and Brad Axen | done
+14_Zach Davis | done
+13_Perna Kaul | done
+12_Hiten Shah | done
 11_Colin Matthews | done
 10_John Blackman | done
 09_Elizabeth Lin | done
@@ -42,4 +42,4 @@
 02_Farhad Manjoo | done
 01_Sahil Lavingia | done
 
-8 (11-16)
+5 (12-16)
