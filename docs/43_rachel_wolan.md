@@ -1,11 +1,11 @@
 ---
 Meta Title: How Webflow's CPO Built an AI Chief of Staff | How I AI
-Meta Description: Webflow CPO Rachel Woolen shares her custom AI Chief of Staff that manages her calendar and the 'Builder Days' she uses to drive AI adoption.
-Keywords: AI Chief of Staff, Vibe Coding, Rachel Woolen, Webflow, AI for Executives, Cursor AI, Builder Days
+Meta Description: Webflow CPO Rachel Wolan shares her custom AI Chief of Staff that manages her calendar and the 'Builder Days' she uses to drive AI adoption.
+Keywords: AI Chief of Staff, Vibe Coding, Rachel Wolan, Webflow, AI for Executives, Cursor AI, Builder Days
 ---
 Dec 29, 2025
 
-# How I AI: How Webflow's CPO Built an AI Chief of Staff to Manage Her Time with Rachel Woolen
+# How I AI: How Webflow's CPO Built an AI Chief of Staff to Manage Her Time with Rachel Wolan
 
 We often talk about the AI-native Product Manager or the AI-native Engineer. 
 
@@ -15,7 +15,7 @@ I’m a “just-in-time” executive. That means the two seconds before I walk i
 
 [FRAME_0]
 
-Rachel Woolen, CPO at Webflow, operates the same way. But she didn't just accept the chaos of back-to-back context switching. 
+Rachel Wolan, CPO at Webflow, operates the same way. But she didn't just accept the chaos of back-to-back context switching. 
 
 She built herself an AI Chief of Staff to fix it.
 
@@ -78,6 +78,8 @@ The results from their last session were staggering. They had over 80 prototypes
 More importantly, it “bluepilled” the team. 
 
 People who were skeptical or intimidated by coding realized they could go from idea to execution in hours, not weeks. 
+
+Check out Rachel's AI Executive Toolkit: https://www.rachelwolan.com/ai-exec-toolkit
 
 ## The Era of the Hard Skill
 
